@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_chip"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="←  Back"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="📚 Stay Safe Online"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Know the tricks, protect your money"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <!-- Common scams -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎭  Common Scams"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"
+                android:text="💬 Phishing: fake SMS, emails or websites that copy a bank or company to steal your login or card details\n\n💸 UPI fraud: collect requests and fake refunds. You never need a PIN to RECEIVE money\n\n📄 KYC scam: your account will be blocked, update KYC now\n\n💼 Fake jobs: they ask for a registration or training fee\n\n🎁 Lottery or prize: you won, but you must pay a fee first\n\n☎️ Fake customer care: numbers found on Google that ask you to install screen sharing apps\n\n👮 Digital arrest: fake police on a video call. This does not exist in real life"
+                android:textColor="#E2E8F0"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- Red flags -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚩  Red Flags"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"
+                android:text="🚩 Urgency: do it NOW or lose your account\n\n🚩 Asks for OTP, PIN, CVV or password\n\n🚩 Unknown links, short links or lookalike names (amaz0n, paypa1)\n\n🚩 Asks you to pay money to get a job, prize or refund\n\n🚩 Pressure to keep it secret or stay on the call\n\n🚩 Offers that are too good to be true"
+                android:textColor="#E2E8F0"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- If scammed -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🆘  If You Got Scammed"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"
+                android:text="1. Call your bank at once and block your card or UPI\n2. Call the Cyber Crime Helpline 1930 as soon as possible\n3. Report on cybercrime.gov.in\n4. Change your passwords\n5. Keep screenshots and transaction details as proof"
+                android:textColor="#E2E8F0"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn_scam"
+            android:stateListAnimator="@null"
+            android:text="📞  CALL 1930 (CYBER HELPLINE)"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_btn_primary"
+            android:stateListAnimator="@null"
+            android:text="🌐  OPEN CYBERCRIME.GOV.IN"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
